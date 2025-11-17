@@ -2,10 +2,8 @@ FROM node:18-alpine
 
 WORKDIR /data
 
-# Install json-server only
 RUN npm install -g json-server --silent
 
-# Copy data into the container (we also mount ./api at runtime for convenience)
 COPY ./api /data
 
 EXPOSE 3000
