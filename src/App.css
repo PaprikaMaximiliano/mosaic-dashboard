@@ -1,0 +1,18 @@
+#root {
+  height: 100svh;
+  width: 100svw;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  user-select: none;
+  -webkit-user-select: none;
+}

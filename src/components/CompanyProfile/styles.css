@@ -1,0 +1,46 @@
+.profile-container {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  overflow: auto;
+  height: calc(100% - 40px);
+}
+
+.profile-title {
+  margin: 0;
+  font-size: 26px;
+}
+
+.profile-subtitle {
+  margin: 4px 0 20px 0;
+  color: #666;
+}
+
+.profile-section {
+  margin-bottom: 28px;
+}
+
+.section-title {
+  font-size: 18px;
+  padding-bottom: 4px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #ccc;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 6px;
+}
+
+.label {
+  width: 180px;
+  font-weight: bold;
+  color: #444;
+}
+
+.desc-text {
+  margin-bottom: 12px;
+}
